@@ -14,5 +14,5 @@ int main(int argc,char* argv[]) {
 void hello(void){
     int my_rank=omp_get_thread_num();
     int thread_count=omp_get_num_threads();
-    printf("Hello from thread %d of %d\n",my_rank,thread_count);
+    printf("Hello World from thread %d of %d\n",my_rank,thread_count);
 }
